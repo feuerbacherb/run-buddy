@@ -92,6 +92,16 @@ section {
     right: 140px;
 }
 
+.herto-cta {
+    text-align: right;
+}
+
+.hero-cta h2 {
+    font-size: 48 px;
+    font-style: italic;
+    color: #fce138;
+}
+
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
