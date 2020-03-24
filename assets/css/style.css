@@ -197,28 +197,86 @@ section {
     background: #fce138;
 }
 
-.steps div {
-    margin-bottom: 80px;
+/*
+    Remove .steps div, .steps img, and .steps span
+
+    .steps div {
+        margin-bottom: 80px;
+    }
+
+    .steps img {
+        width: 15%;
+        margin: 10px 0;
+    }
+
+    .steps span {
+        font-size: 38px;
+    }
+*/
+
+/*
+    Create new .step rule
+*/
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
+/*
+    .steps h3 remove margin-top and rename selector to .step h3
 
-.steps h3 {
+    margin-top: 10px;
+
+    .step h3 add flex: 1 30%;
+*/
+.step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps p {
+/* Create rule for .step-img */
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+/* Create rule for .step-info */
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*
+    Change .steps p to read .step-text p, and change the font-size from 23px to 18px
+
+    add flex: 12;
+*/
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
+    flex: 12;
 }
 
-.steps span {
-    font-size: 38px;
+/*
+    Create new .step-text h4 rule
+*/
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
 }
 
 /*
