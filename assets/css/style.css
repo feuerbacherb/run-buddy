@@ -168,20 +168,32 @@ section {
     font-size: 16px;
 }
 
-.intro {
-    text-align: center;
-}
+/*
+    Remove entire .intro rule
 
+    .intro {
+        text-align: center;
+    }
+*/
+
+/*
+    .intro p add text-align
+*/
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
-.steps {
+/*
+    .steps remove text-align rule
+    
     text-align: center;
+*/
+.steps {
     background: #fce138;
 }
 
@@ -209,13 +221,25 @@ section {
     font-size: 38px;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
+/*
+    .section-title remove display, padding, and margin-bottom
+    
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
+
+    .section-title
+
+    add padding-bottom, text-align, margin, and width
+*/
+.section-title {
+    font-size: 55px;
+    color: #024e76;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -226,8 +250,12 @@ section {
     border-color: #39a6b2;
 }
 
-.trainers {
+/*
+    .trainers remove text-align declaration
+    
     text-align:center;
+*/
+.trainers {
 }
 
 .trainer {
@@ -265,17 +293,13 @@ section {
     line-height: 1.3;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 /*  REACH OUT STYLES START */
-.contact {
+/*
+    .contact remove text-align rule
+
     text-align: center;
+*/
+.contact {
     background: #024e76;
 }
 
@@ -315,4 +339,15 @@ section {
 
 /*  REACH OUT STYLES END */
 
-/* added for testing purposes */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
