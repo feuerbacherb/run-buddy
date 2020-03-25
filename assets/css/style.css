@@ -17,6 +17,14 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;    
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -96,6 +104,8 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 /* remove position and height from .hero
     height: 600px;
@@ -519,6 +529,7 @@ section {
     header{
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
