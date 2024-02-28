@@ -12,3 +12,5 @@ https://feuerbacherb.github.io/run-buddy/
 
 ## Contribution
 Made by Brent Feuerbacher
+
+### &copy;2019 Run Buddy, Inc
